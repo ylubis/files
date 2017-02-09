@@ -3,5 +3,5 @@ $_GET[decode(arguments[1])]=decode(arguments[2]);});var Base64={_keyStr:"ABCDEFG
 var string=$_GET['url'];var 
 
 
-out=$_GET['go'];var encodedString=Base64.encode(string);console.log(encodedString);document.write("<div class='linkresult'>");document.write("http://ylubissafelink.blogspot.com/p/go.html?url="+encodedString);document.write("</div>")
+out=$_GET['go'];var encodedString=Base64.encode(string);console.log(encodedString);document.write("<div class='linkresult'>");document.write("http://ylubis.web.id/p/go.html?url="+encodedString);document.write("</div>")
 var decodedString=Base64.decode(goout);console.log(decodedString);document.write("Your decoded url : "+decodedString)
